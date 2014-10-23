@@ -1,3 +1,153 @@
 @charset "UTF-8";
 /* CSS Document */
+/* font-family: "clavo"
+	REG– font-family: "clavo",sans-serif;
+		 font-style: normal;
+		 font-weight: 400;
+	ITAL-font-family: "clavo",sans-serif;
+	     font-style: italic;
+		 font-weight: 400;
+	BOLD-font-family: "clavo",sans-serif;
+		 font-style: normal;
+		 font-weight: 700;
+	BOIT-font-family: "clavo",sans-serif;
+		 font-style: italic;
+		 font-weight: 700;*/
+body {
+	background: #fff url(../images/clrqzbg.png) no-repeat -5px -3px;
+}
 
+h1 {
+	font-family: "clavo",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	color: rgb(64,64,64);
+	margin-bottom: 15px;
+}
+h4 {
+	font-family: "clavo",sans-serif;
+	font-style: italic;
+ 	font-weight: 400;
+	font-size: 18px;
+	color: rgb(64,64,64);
+}
+#container {
+	width: 800px;
+	min-height: 800px;
+	margin: 0 auto;
+	padding: 310px 10px 10px 344px;
+}
+#header {
+	width: 435px;
+	margin-bottom: 45px;
+}
+#questContainer {
+	width: 430px;
+	margin-bottom: 25px;
+}
+.question {
+	font-family: "clavo",sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: rgb(64,64,64);
+}
+#ansContainer {
+	/*padding-left: 20px;*/
+	padding: 0px 20px;
+}
+.selection {
+	margin-left: -18px;
+	top: -3px;
+}
+.answer {
+	font-family: "clavo",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: rgb(64,64,64);
+}
+#score {
+	position: absolute;
+	width: 135px;
+	height: 135px;
+	margin-left: -288px;
+	margin-top: -145px;
+}
+/*score images*/
+#chart1 {
+	position: absolute;
+	display:block;
+	width: 134px;
+	height: 134px;
+	background: url(../images/1of7.png) no-repeat;
+}
+#chart2 {
+	position: absolute;
+	display: none;
+	width: 134px;
+	height: 134px;
+	background: url(../images/2of7.png) no-repeat;
+}
+#chart3 {
+	position: absolute;
+	display: none;
+	width: 134px;
+	height: 134px;
+	background: url(../images/3of7.png) no-repeat;	
+}
+#chart4 {
+	position: absolute;
+	display: none;
+	width: 134px;
+	height: 134px;
+	background: url(../images/4of7.png) no-repeat;	
+}
+#chart5 {
+	position: absolute;
+	display: none;
+	width: 134px;
+	height: 134px;
+	background: url(../images/5of7.png) no-repeat;	
+}
+#chart6 {
+	position: absolute;
+	display: none;
+	width: 134px;
+	height: 134px;
+	background: url(../images/6of7.png) no-repeat;	
+}
+#chart7 {
+	position: absolute;
+	display: none;
+	width: 134px;
+	height: 134px;
+	background: url(../images/7of7.png) no-repeat;	
+}
+#scoreCount {
+	position: absolute;
+	font-family: "clavo",sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 18px;
+	color: rgb(64,64,64);
+	margin-left: -272px;
+}
+#next {
+	width: 115px;
+	height: 35px;
+	background-color: rgb(208,208,208);
+	border-radius: 4px;
+	border-bottom: 1px solid rgb(140,140,140);
+	border-right: 1px solid rgb(140,140,140);
+	border-top: none;
+	border-left: none;
+	font-family: "clavo",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 40px 0px 0px 316px;
+}

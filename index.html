@@ -7,9 +7,46 @@
 	<link rel="stylesheet" href="css/styles.css" type="text/css" />
 	<script src="http://code.jquery.com/jquery.min.js"></script>
 	<script src="js/app.js"></script>
+    <script src="//use.typekit.net/byv6mca.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
-
+	<div id="container">
+    	<div id="header">
+        	<h1>Welcome to The Color Quiz.</h1>
+            <h4>Where your knowledge of the rainbow<br>
+                gives you everything you need to know.</h4>
+        </div>
+        <div id="questContainer">
+        	<span class="question">Question 1:<br>
+                                   What are the primary colors?</span>
+        </div>
+        <div id="ansContainer">
+        	<input type="radio" name="selection" class="selection" value="0" />
+            		<span class="answer">Primary colors are the colors that are most
+                    popular with most of the people in the world.</span><br>
+            <input type="radio" name="selection" class="selection" value="1" />
+            		<span class="answer">Primary colors are colors with names that
+                    begin with A, B, or C.</span><br>
+            <input type="radio" name="selection" class="selection" value="2" />
+            		<span class="answer">Primary colors are the brightest shades
+                    of all the colors.</span><br>
+            <input type="radio" name="selection" class="selection" value="3" />
+            		<span class="answer">Primary colors are colors that can't be created
+                    by mixing other colors.</span><br>                        
+        </div>
+        <div id="score">
+        	<div id="chart1"></div>
+            <div id="chart2"></div>
+            <div id="chart3"></div>
+            <div id="chart4"></div>
+            <div id="chart5"></div>
+            <div id="chart6"></div>
+            <div id="chart7"></div>
+        </div>
+        <div id="scoreCount">0 of 6 correct!</div>
+        	<input type="button" name="next" id="next" value="Next" />
+    </div>
 </body>
 </html>
